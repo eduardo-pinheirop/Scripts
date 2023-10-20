@@ -1,11 +1,11 @@
-#1              
+##1              
 #print("Olá Mundo!")
 
-#2
+##2
 #nome = input("Qual o seu nome?")
 #print(f"Bem vindo {nome}")
 
-#3
+##3
 #prim = int(input("Digite o primeiro número:"))
 #seg = int(input("Digite o segundo número: "))
 
@@ -13,7 +13,7 @@
 
 #print(soma)
 
-#4
+##4
 #caractere = input("Digite algo: ")
 
 #teste1 = caractere.isnumeric()
@@ -34,11 +34,11 @@
 #    else:
 #        print("O tipo é alfanumérico")
 
-#Resolucão2
+##Resolucão2
 #n = input("Digite algo: ")
 #print(type(n))
 
-#Resolucão3
+##Resolucão3
 #dado = input("Digite algo: ")
 
 #teste1 = dado.isnumeric()
@@ -49,7 +49,7 @@
 #print(f"É alfabético? {teste2}")
 #print(f"É alfanumérico? {teste3}")
 
-#5
+##5
 #n = int(input("Digite um número: "))
 
 #ante = n-1
@@ -57,7 +57,7 @@
 
 #print(f"Seu antecessor é {ante} e seu sucessor é {suce}")
 
-#6
+##6
 #n = float(input("Digite um número: "))
 
 #dob = 2*n
@@ -66,14 +66,14 @@
 
 #print(f"O dobro é {dob} \nO triplo é {trip} \nE a raiz é {raiz})
 
-#7
+##7
 #n1 = float(input("Primeira nota: "))
 #n2 = float(input("Segunda nota: "))
 
 #med = (n1+n2)/2
 #print(f"A média é {med}")
 
-#8
+##8
 #met = float(input("Digite o valor em metros: "))
 
 #cent = int(met*100)
@@ -81,7 +81,7 @@
 
 #print(f"O valor equivale a {cent}cm e {mili}mm")
 
-#9
+##9
 #n = int(input("Digite um número: "))
 
 #i = 0
@@ -91,7 +91,7 @@
 #    print(f"{n}*{i}={mult}")
 #    i=i+1
 
-#10
+##10
 #reais = float(input("Quantos reais deseja converter? "))
 #dolar = round(reais/5.14, 2)
 
@@ -106,28 +106,28 @@
 #litros = round(area/2, 2)
 #print(f"Precisa-se de {litros} litros de tinta")
 
-#12
+##12
 #precoVelho = float(input("Digite o preço em reais: "))
 
 #precoNovo = round(precoVelho*0.9, 3)
 
 #print(f"O preço com desconto é R${precoNovo}")
 
-#13
+##13
 #antigo = float(input("Qual o seu salário antigo?(Só números)"))
 
 #novo = antigo*1.15
 
 #print(f"Seu novo salário é {novo}")
 
-#14
+##14
 #cels = float(input("Digite a temperatura em °C: "))
 
 #fahr = (cels*1.8)+32
 
 #print(f"Equivale a {fahr}°F")
 
-#15
+##15
 #vel = float(input("Qual a velocidade do carro?(Em km/h): "))
 
 #if vel > 80:
@@ -136,13 +136,13 @@
 #else:
 #    print("Dentro do limite de velocidade :)")
 
-#19
+##19
 #cont = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 #for num in cont:
 #    print(num)
 
-#20
+##20
 #numbers = range(10, 0, -1)
 
 #for num in numbers:
@@ -151,7 +151,7 @@
 
 #    print(num)
 
-#21**sleep
+##21
 #numeros = range(50)
 
 #for num in numeros:
