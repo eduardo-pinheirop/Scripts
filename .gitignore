@@ -210,3 +210,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+### Swift ###
+
+## Obj-C/Swift specific
+*.hmap
